@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://tinkoff-analysis.github.com/Tinkoff.Analytics (Package).appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="18deae80-ca37-4e7b-8d9d-f478d930b0ec"
+		Version="1.0.1.0"
+		Publisher="CN=BayanovGR"
+		Uri="https://tinkoff-analysis.github.com/Tinkoff.Analytics (Package)_1.0.1.0_Debug_Test/Tinkoff.Analytics (Package)_1.0.1.0_x86_Debug.appxbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27810.0"
+			ProcessorArchitecture="x86"
+			Uri="https://tinkoff-analysis.github.com/Tinkoff.Analytics (Package)_1.0.1.0_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27810.0"
+			ProcessorArchitecture="x86"
+			Uri="https://tinkoff-analysis.github.com/Tinkoff.Analytics (Package)_1.0.1.0_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.appx" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
